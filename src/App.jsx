@@ -1,12 +1,20 @@
-import React from "react";
+import reactLogo from "./assets/react.svg";
+
+import "./App.css";
+
 function App() {
- return (
+
+  return (
 <div className="App">
 <header className="App-header">
-<h1>Welcome to Unicorn Land! 🦄✨</h1>
-<p>Let's build something magical! 🌟</p>
+<img src={reactLogo} className="logo react" alt="React logo" />
+<h1>Welcome to Unicorn Land 🦄✨</h1>
+<p>Let's build something magical!</p>
 </header>
 </div>
- );
+
+  );
+
 }
-export default App;
+
+export default App; 
